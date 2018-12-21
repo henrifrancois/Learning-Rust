@@ -1,0 +1,13 @@
+fn main() {
+    another_function(22);
+    let s = implicit();
+    println!("{}", s);
+}
+
+fn another_function(x: i32) {
+   println!("the value of x is: {}", x);
+}
+
+fn implicit() -> bool {
+   true
+}
